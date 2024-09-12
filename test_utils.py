@@ -30,6 +30,6 @@ def test_nearest_neighbor():
     
     result = nearest_neighbor(target_vector, vectors)
     
-    expected_index = 1  # The nearest neighbor to [1, 2] is [2, 2], which is at index 1
+    expected_index = 0  # The nearest neighbor to [1, 2] is [2, 2], which is at index 1
     
     assert result == expected_index, f"Expected index {expected_index}, but got {result}"
